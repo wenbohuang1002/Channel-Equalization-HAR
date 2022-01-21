@@ -1,8 +1,6 @@
 import torch
 import torch.nn as nn
 
-
-
 class AdaptiveReweight(nn.Module):
     def __init__(self, channel, reduction=4,momentum=0.1,index=0):
         self.channel=channel
